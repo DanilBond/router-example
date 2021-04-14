@@ -1,0 +1,27 @@
+.PostList {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.PostList li {
+    padding: 20px;
+    background-color: #53354a;
+    border: 1px solid black;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px black;
+    list-style-type: none;
+}
+.PostList li a {
+    text-decoration: none;
+}
+.PostList li:hover {
+    background-color: #362330;
+    box-shadow: 0 0 5px black;
+}
+.PostList li a:hover {
+    color: red;
+    text-shadow: 0 0 10px black;
+}
