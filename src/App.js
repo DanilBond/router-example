@@ -7,6 +7,7 @@ import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
 import Posts from './components/Posts/Posts';
 import WorldNews from './components/WorldNews/WorldNews';
+import Analitycs from './components/Analitycs/Analitycs';
 
 function App() {
 
@@ -23,12 +24,14 @@ function App() {
         <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/posts">Posts</NavLink></li>
         <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/worldNews">Price</NavLink></li>
         <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/contacts">Contacts</NavLink></li>
+        <li><NavLink activeClassName="activeLink" activeStyle = {activeLinkStyle} to="/analytics">Analytics</NavLink></li>
       </ul>
       <Switch>
         <Route path="/about" component={About} />
         <Route path="/posts" component={Posts} />
         <Route path="/worldNews" component={WorldNews} />
         <Route path="/contacts" component={Contacts} />
+        <Route path="/analytics" component={Analitycs} />
         <Route exact path="/" component={Home} />
         <Route path="/" component={NotFound} />
       </Switch>
