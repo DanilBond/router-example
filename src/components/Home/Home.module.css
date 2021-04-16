@@ -2,3 +2,16 @@
     padding-top: 20px;
     text-align: center;
 }
+.Cont img{
+    width: 500px;
+    height: 400px;
+    border: 3px solid black;
+    margin: 50px 50px;
+}
+.Flexable{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
