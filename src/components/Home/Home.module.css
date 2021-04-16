@@ -8,6 +8,13 @@
     border: 3px solid black;
     margin: 50px 50px;
 }
+.Cont {
+    transition: transform .5s;
+}
+.Cont:hover {
+    transform: scale(1.2);
+}
+
 .Flexable{
     display: flex;
     flex-wrap: wrap;
